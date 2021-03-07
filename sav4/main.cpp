@@ -1,14 +1,11 @@
 #include "Color.h"
 #include <iostream>
 #include <vector>
-#include <ctime>
-#include <cstdlib>
 
 int Color::idCount = 0;
 
 int main()
 {
-	srand(time(NULL));
 	std::vector<Color> colors;
 	try{		
 	
